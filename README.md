@@ -8,23 +8,76 @@
 
 ---
 
-## 📸 Live Preview
+## 📘 About This Project
 
-Coming soon...
+This project was developed as part of my internship at **KnackForge Pvt Ltd** and is focused on crafting a **visually appealing, user-friendly checkout page** for a fictional e-commerce platform. The primary objective was to demonstrate my front-end development skills using **HTML**, **CSS**, and **Bootstrap 5**, while emphasizing clean UI practices and responsiveness.
+
+The page includes two main sections:
+
+### 1. 🧾 Billing & Payment Form
+This form is designed to collect user details needed for processing an online order. It includes:
+- First name and last name inputs
+- Username with @ prefix input
+- Email field with optional hint
+- Address line 1 and line 2
+- Dropdowns for Country and State
+- ZIP/Postal code
+- Checkboxes for address preferences
+- Payment method options: Credit Card, Debit Card, PayPal
+- Fields for cardholder name, card number, expiry, and CVV
+
+Every input is crafted using Bootstrap’s form components and classes, ensuring accessibility and responsive alignment.
 
 ---
 
-## 🧾 Overview
+### 2. 🛒 Shopping Cart Sidebar
+This sidebar remains sticky (on larger screens) and shows:
+- A list of cart items with name, price, and brief descriptions
+- A highlighted promo code entry
+- Total price calculation
+- A promo code input box with a “Redeem” button
 
-This project is a responsive and modern **Checkout Page UI** built using HTML, CSS, and Bootstrap 5. It features a billing form, shopping cart, promo code input, and payment section – all optimized for both desktop and mobile users.
-
-This UI was designed as a part of my internship task to demonstrate front-end development skills, visual consistency, and responsiveness.
+The cart helps simulate the user experience just before completing an e-commerce transaction. While no backend functionality is implemented in this version, the layout is designed for easy integration with form handling scripts or APIs.
 
 ---
 
-## 🌐 Demo Preview
+## 🎯 Goals & Learning Outcomes
 
-> *Add a screenshot once hosted*
+This project helped me apply and reinforce:
+- **Responsive Web Design (RWD)** using Bootstrap's grid and utility classes
+- **Form usability and layout design**
+- **CSS customization** with gradient buttons, box shadows, and animation effects
+- Understanding of **clean code structure** and maintainable UI components
+- Ability to simulate real-world UI scenarios like carts, promo codes, and payments
 
-```bash
-💡 Tip: Press `Ctrl + O` on VS Code to launch index.html instantly.
+---
+
+## 💼 Internship Context
+
+This task was assigned as a hands-on front-end challenge to test my ability to:
+- Translate UI design specs into working code
+- Use Bootstrap effectively without JavaScript frameworks
+- Follow clean structure and styling best practices
+- Build a professional UI that’s both functional and aesthetically pleasing
+
+---
+
+## 📦 Project Highlights
+
+- ✅ Fully mobile-responsive and adapts to all screen sizes
+- 🎨 Custom styling layered on top of Bootstrap for unique look and feel
+- 📋 All input fields are logically grouped and labeled
+- 💳 Payment section styled to mimic real-world forms
+- ✨ Cart design with total price and redeemable promo code
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Usage |
+|------------|-------|
+| `HTML5`    | Page structure |
+| `CSS3`     | Custom styling and animations |
+| `Bootstrap 5.3` | Responsive grid system, forms, and components |
+
+---
