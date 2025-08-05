@@ -1,0 +1,46 @@
+
+body {
+  background-color: #f2f4f8;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+}
+
+.form-section {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+.your-cart {
+  position: sticky;
+  top: 1rem;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.form-check-input {
+  margin-top: 0.3rem;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #007bff 0%, #0056b3 100%);
+  border: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #0056b3 0%, #003f7f 100%);
+}
+
+.animate {
+  animation: fadeInUp 1s ease;
+}
+
+
